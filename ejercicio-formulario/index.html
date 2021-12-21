@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ejercicio Formulario</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="contenedor">
+			<h4 class="sub-t">Datos comprador</h4>
+			<form>
+				<div class="nombre">
+					<label for="nombre">Nombre </label>
+					<input
+						type="text"
+						name="nombre"
+						id="texto"
+						placeholder="Escribe tu nombre completo"
+					/>
+				</div>
+				<div class="mail">
+					<label for="email">Email </label>
+					<input type="email" name="email" id="texto" placeholder="ejemplo@um.es" />
+				</div>
+				<div class="tel">
+					<label for="telefono">Teléfono </label>
+					<input type="tel" name="telefono" id="texto" placeholder="Ej. +34555555" />
+				</div>
+				<div class="pais">
+					<label for="pais">País</label>
+					<input type="text" name="pais" id="texto" />
+				</div>
+				<h4 class="sub-t">Datos de tarjeta de credito o debito</h4>
+				<div class="numero">
+					<label for="num-tarjeta">Numero </label>
+					<input
+						type="number"
+						name="num-tarjeta"
+						id="texto"
+						placeholder="Ej. 5555-4444-3333-2222"
+					/>
+				</div>
+				<div class="tarjeta">
+					<label for="nombre">Nombre </label>
+					<input
+						type="text"
+						name="nombre"
+						id="texto"
+						placeholder="Escribe que figura en la tarjeta"
+					/>
+				</div>
+				<p>--------------------------------------------</p>
+				<button>Confirmar pedido</button>
+			</form>
+		</div>
+	</body>
+</html>

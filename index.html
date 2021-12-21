@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>HTMLL Formularios</title>
+	</head>
+	<body>
+		<!--  *Ejemplos tipos de input*
+		<form action="">
+			<input type="text" name="" id="" />
+			<input type="date" name="fecha" id="fecha" />
+			<input type="color" name="color" id="color" />
+			<input type="password" name="contra" id="contra" />
+			<input type="file" name="archivo" id="archivo" />
+			<input type="checkbox" name="seleccion" id="seleccion" />
+			<input type="radio" name="radio" id="radio" />
+			<input type="button" value="boton" />
+		</form>
+		<button>Campo</button> -->
+		<h1>Formulario</h1>
+		<form class="formulario">
+			<div class="nombre">
+				<label for="nombre">Nombre</label>
+				<input
+					class="clase-nombre"
+					type="text"
+					name="nombre"
+					id="nombre"
+					placeholder="Escribe tu nombre..."
+				/>
+			</div>
+			<div class="apellido">
+				<label for="apellido">Apellido</label>
+				<input
+					type="text"
+					name="apellido"
+					id="apellido"
+					placeholder="Escribe tu apellido..."
+				/>
+			</div>
+			<div class="password">
+				<label for="passw">Contraseña</label>
+				<input
+					id="password"
+					type="password"
+					name="passw"
+					id="passw"
+					placeholder="Contrasena"
+				/>
+			</div>
+			<div class="correo">
+				<label for="correo">Correo: </label>
+				<input
+					type="email"
+					name="correo"
+					id="correo"
+					placeholder="Escribe tu correo electronico"
+				/>
+			</div>
+			<div class="boton">
+				<input type="submit" value="Enviar" />
+			</div>
+		</form>
+		<form action="">
+			<fieldset>
+				<legend>Ingresa tu edad:</legend>
+				<label for="numero">Numero</label>
+				<input type="number" name="numero" id="numero" max="50" min="1" />
+				<label for="rango">Rango:</label>
+				<input type="range" name="rangoo" id="rango" />
+			</fieldset>
+		</form>
+	</body>
+</html>

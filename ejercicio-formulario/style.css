@@ -1,0 +1,38 @@
+.contenedor {
+	border: 12px solid rgb(123, 211, 211);
+	border-radius: 8px;
+	padding: 20px;
+	background-color: rgb(18, 165, 18);
+}
+.sub-t {
+	color: antiquewhite;
+	border-bottom: 20px;
+	border-top: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+label {
+	display: inline-block;
+	width: 90px;
+	margin: 0 25px;
+	border: 5px;
+	color: antiquewhite;
+}
+input {
+	border: 2px solid red;
+	margin-bottom: 5px;
+	width: 220px;
+}
+#boton {
+	width: auto;
+}
+.barra {
+	border-bottom: 1px dashed white;
+}
+p {
+	color: white;
+}
+button {
+	margin-left: 22px;
+	padding: 2px 5px;
+	margin-bottom: 20px;
+}
