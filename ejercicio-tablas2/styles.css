@@ -1,0 +1,15 @@
+table,
+tr,
+th,
+td {
+	border: 1px solid gray;
+}
+table {
+	box-shadow: 1px 1px;
+	margin: auto;
+}
+td {
+}
+h3 {
+	text-align: center;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tablas en HTML5</title>
+		<link rel="stylesheet" href="css/tablas.css" />
+	</head>
+	<body>
+		<h1>Tablas</h1>
+		<!--* Atributos para tabla colspan y rowspan-->
+
+		<!--Etiqueta tabla-->
+		<table>
+			<!--Etiqueta para dividir la seccion del encabezado-->
+			<thead>
+				<!--Table row etiqueta para filas-->
+				<tr>
+					<!--Etiqueta para encabezado-->
+					<th>Cabecera</th>
+					<th colspan="1" rowspan="2">Cabecera</th>
+					<th>Cabecera</th>
+				</tr>
+				<tr>
+					<th>final</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<!--etiqueta para los datos de la tabla-->
+					<td>Dato</td>
+					<td>Dato</td>
+					<td>Dato</td>
+				</tr>
+				<tr>
+					<!--etiqueta para los datos de la tabla-->
+					<td>Dato2</td>
+					<td>Dato2</td>
+					<td>Dato2</td>
+				</tr>
+				<tr>
+					<!--etiqueta para los datos de la tabla-->
+					<td>Dato3</td>
+					<td>Dato3</td>
+					<td>Dato3</td>
+				</tr>
+			</tbody>
+			<!--Divide la tabla en secciones seccion pie de tabla-->
+			<tfoot>
+				<tr>
+					<!--etiqueta para los datos de la tabla-->
+					<td>Pie</td>
+					<td>Pie</td>
+					<td>Pie</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
